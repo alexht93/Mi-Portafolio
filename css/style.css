@@ -1,0 +1,282 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+    *, *::before, *::after 
+{   box-sizing: inherit;
+}
+
+*{
+    text-decoration: none;
+    list-style:none;
+}
+body{
+    padding: 0;
+    margin:0;
+    color: white;
+    background-color: #020403;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 0;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+nav ul li a{
+    color: white;
+    font-size: 1rem;
+    padding: 5px px;
+    border-radius: 3px;
+  
+}
+
+li a:hover{
+   background-color: darkslategrey;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 0;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
+.container{
+    position: relative;
+    width: 60%;
+    height: 500px;
+  
+}
+.profilePic{
+    position: absolute;
+    margin-top: 10%;
+    width: 300px; 
+    height: 350px;
+    right: 0;
+    z-index: 98;
+}
+.vector1{
+    position: relative;
+    top: 0.1rem;
+    z-index: 1;
+}
+.absolute1{
+    top: 1rem;
+   
+}
+
+.absolute3{
+    width: 100vp;
+    height: 200px;
+    margin-bottom: 3rem;
+    
+}
+
+.opacity{
+    opacity: 60%;
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.texth1{
+    font-size: 4rem;
+    text-align: center;    
+}
+
+.absolute4{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.paddingImg{
+    padding: 30px;
+    height: 120px;
+    width: 120px;
+}
+
+.imgvector2{
+   position: relative;
+   bottom: 31.25rem;
+   left: -5%;
+}
+.imgVtor{
+    max-width: 100rem;
+}
+
+.section2{
+    position: relative;
+    top: -850px;
+}
+
+.textTitles{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.textParagraph{
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.circle1{
+    position: relative;
+    top: -800px;
+    right: -50px;
+    float: right;
+}
+
+.title-Hab{
+    position: relative;
+    top: -650px;
+    right: 400px;
+}
+
+.container-box{
+        position: relative;
+        left: 20%;
+        top: -600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.col-6{
+    width:calc(100% /12 * 6);
+    padding: 40px;
+}
+.icon-position{
+    position: relative;
+    left: 10%;
+}
+.icon-position2{
+    position: relative;
+    left: 3%;
+}
+.icon-position3{
+    position: relative;
+    left: 7%;
+}
+.icon-position4{
+    position: relative;
+    left: 4%;
+}
+.backg-icon{
+    background-color: #1e1e1e;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.exper-container{
+    position: relative;
+    top: -400px;
+}
+
+.text-align2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+
+}
+
+.opc-bdr{
+    border-bottom: 1px solid rgb(123, 111, 111);
+}
+
+.opaci-text{
+    opacity: 60%;
+}
+
+.circle2{
+    position: absolute;
+    bottom: -50%;
+    left: -5%;
+}
+.boxporta{
+    position: relative;
+    bottom: 20rem;
+    
+}
+.containerPorta{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+.box-sizes{
+    width: 3000x;
+    height: 300px;
+}
+.portaboxes{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 4rem;
+}
+.container-contact{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.backgndContact{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+.boxContactContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 20rem;
+}
+.textContact{
+    text-align: center;
+    padding: 1rem;
+}
+.contactItemalign{
+    position: relative;
+    left: 5rem;
+}
+.contactItemalign2{
+    position: relative;
+    left: 3rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: -10rem;
+    padding-bottom: 10rem;
+}
+
+
