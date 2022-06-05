@@ -38,7 +38,7 @@ nav ul li a{
     font-size: 1rem;
     padding: 5px px;
     border-radius: 3px;
-  
+    
 }
 
 li a:hover{
@@ -65,6 +65,7 @@ li a:hover{
     position: relative;
     width: 60%;
     height: 500px;
+    
   
 }
 .profilePic{
@@ -80,23 +81,34 @@ li a:hover{
     top: 0.1rem;
     z-index: 1;
 }
+
+.imgvector2{
+    position: relative;
+    bottom: 32rem;
+    left: -4%;
+ }
+ .imgVtor{
+     width: 86rem;
+ }
+ .imgVtor2{
+     width: 86rem;
+    
+ }
+ 
 .absolute1{
     top: 1rem;
    
 }
 
 .absolute3{
-    width: 85rem;
     height: 200px;
     margin-bottom: 3rem;
-    
 }
 
 .opacity{
     opacity: 60%;
     font-size: 2.5rem;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .texth1{
@@ -107,26 +119,12 @@ li a:hover{
 .absolute4{
     display:flex;
     justify-content: center;
-    
 }
 
 .paddingImg{
     padding: 30px;
     height: 120px;
     width: 120px;
-    
-}
-
-.imgvector2{
-   position: relative;
-   bottom: 31.25rem;
-   left: -5%;
-}
-.imgVtor{
-    width: 86rem;
-}
-.imgVtor2{
-    width: 86rem;
 }
 
 .section2{
@@ -156,35 +154,40 @@ li a:hover{
     height: 250px; 
     object-fit:cover;
     object-position: 0 100%;
-   
 }
-  
 
 .title-Hab{
+    width: 50rem;
     position: relative;
-    top: -650px;
-    right: 400px;
+    top: -550px;
+    left: 20%;
 }
-
+.experiencia{
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    position: relative;
+    bottom: 30rem;
+}
 .container-box{
         position: relative;
-        top: -550px;
+        top: -600px;
         left: 450px;
         display: flex;
         align-items: center;
         width: 700px;
-        height: 250px;
-      
+        height: 550px;   
+        margin-right: 100rem;  
 }
 .container-box2{
         position: relative;
-        top: -550px;
+        top: -600px;
         left: 450px;
         display: flex;
         align-items: center;
         width: 700px;
         height: 250px;
-       
+        margin-right: 100rem;  
 }
 
 .col-6{
@@ -209,7 +212,7 @@ li a:hover{
     left: 4%;
 }
 .backg-icon{
-    background-color: #1e1e1e;
+    background-color: #353434;
     border-radius: 50%;
     padding: 10px;
 }
@@ -223,6 +226,13 @@ li a:hover{
     font-size: 2.5rem;
     text-align: center;
     padding-bottom: 20px;
+}
+.habilidades2{
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+    position: relative;
+    bottom: 30rem;
 }
 .row{
         display: flex;
@@ -245,7 +255,7 @@ li a:hover{
 
 .circle2{
     position: absolute;
-    bottom: -40%;
+    top: 90%;
     left: -3%;
 }
 .boxporta{
@@ -301,7 +311,7 @@ li a:hover{
     display: flex;
     justify-content: center;
     margin-top: -10rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 
 

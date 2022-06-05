@@ -1,18 +1,206 @@
-@media (max-width: 400px) { 
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1400px) {
+    .imgVtor{
+        width: 92rem;
+    }
+    .imgVtor2{
+        width: 92rem;
+    }
+    }
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px ) { 
+
+    .imgVtor{
+        width: 74rem;
+    }
+    .imgVtor2{
+        position: absolute;
+        top: 60%;
+        width: 76rem;
+        left: -4%;
+    
+    }
+    .profilePic{
+        width: 275px; 
+        height: 300px;
+        top: 3rem;
+        right: 2rem;
+        z-index: 98;
+    }
+    .absolute3{
+        position: absolute;
+        left:30%;
+        top: 75%;
+        height: 100px;
+        margin-top: 2rem;
+    }
+    .opacity{
+        font-size: 1.5rem;
+    }
+    .texth1{
+        font-size: 3rem;
+        text-align: center;    
+    }
+    .paddingImg{
+        margin-top: 8rem;
+        padding: 20px;
+        height: 90px;
+        width: 90px;
+    }
+    .section2{
+        position: relative;
+        top: 18rem;
+    }
+    
+    .textTitles{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-bottom: 10px;
+    }
+    
+    .textParagraph{
+        opacity: 70%;
+        font-size: 0.75rem;
+        text-align: center;
+        margin: 2rem;
+    }
+    .circle1{
+        top: 12rem;
+    }
+    .crop{
+        width: 150px; 
+        height: 200px; 
+        object-fit:cover;
+        object-position: 0 100%;
+    }
+    .habilidades{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        position: relative;
+        width: 20rem;
+        top: 25rem;
+    }
+    .experiencia{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+        position: relative;
+        top: 45rem;
+    }
+    .container-box{
+        position: relative;
+        top: 30rem;
+        left: 20rem;
+        display: flex;
+        justify-content: space-around;
+        width: 350px;
+        height: 200px; 
+        margin-left: 2rem;
+        margin-right: 2rem;
+       
+}
+.container-box2{
+        position: relative;
+        top: 35rem;
+        left: 20rem;
+        display: flex;
+        justify-content: space-around;
+        width: 350px;
+        height: 200px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+}
+
+.col-6{
+    width:calc(100% /12 * 6);
+    padding: 8rem;  
+}
+.icon-position{
+    position: relative;
+    left: -20%;
+}
+.icon-position2{
+    position: relative;
+    left: 10%;
+}
+.icon-position3{
+    position: relative;
+    left: 7%;
+}
+.icon-position4{
+    position: relative;
+    top: -1.7rem;
+}
+.textIcon{
+    font-size: 1rem;
+    position: relative;
+    left: 1rem;
+   
+}
+.textExper{
+    font-size: 1rem;
+    text-align: center;
+}
+.row{
+    display: flex;
+    height: 13rem;
+    justify-content: right;
+}
+.opc-bdr{
+    border-bottom: 1px solid rgb(123, 111, 111,);
+    margin-left: 0;
+    margin-right: 3rem;
+}
+.circle2{
+    position: absolute;
+    bottom: -40%;
+    left: -5%;
+}
+.containerPorta{
+    font-size: 1.25rem;
+    position: relative;
+    top: 1rem;
+    left: -6rem;
+}
+.boxporta{
+    position: relative;
+    margin-left: 10rem;
+    top: 50rem;
+}
+.boxportaContact{
+    position: relative;
+    margin-left: 0rem;
+    top: 50rem;
+}
+.portaboxes{
+    display: flex;
+    justify-content:space-around;
+    margin-left: -8rem;
+}
+.box-sizes{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 2rem;
+}
+.boxContactContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    top: 70rem;
+    margin-bottom: 10rem;
+}
+
+  
+
   
 }
-
-
-/* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) { 
-}
-
-/* // Small devices (landscape phones, less than 768px) */
-@media only screen and (max-width: 768px){
-
-} 
-
-
 /* // Medium devices (tablets, less than 992px) */
 @media only screen and (max-width: 992px) {
     
@@ -30,13 +218,14 @@
         text-align: center;
         transition: all .5s;
         z-index: 99;
+        
     }
     
     nav ul li{
         display: block;
         margin: 50px 0;
         line-height: 30px;
-       
+      
     }
     nav ul li a{
         font-size: 1rem;
@@ -50,39 +239,766 @@
     #check:checked ~ ul{
        left: 0%;
     } 
-    .container{
-        width: 65%;
-    }
+     
     .imgVtor{
-        max-width: 75rem;
-        }
-        .imgVtor2{
-        max-width: 79rem;
-        }  
+        width: 61rem;
+    }
+    .imgVtor2{
+        position: absolute;
+        top: 70%;
+        width: 63rem;
+        left: -4%;
     
-
-}
-
-/* // Large devices (desktops, less than 1200px) */
- @media (min-width: 1200px ) { 
-    /* .imgVtor{
-        width: 75rem;
     }
-    .imgVtor2{
-        width: 75rem;
-    } */
+    .profilePic{
+        width: 230px; 
+        height: 270px;
+        right: -5%;
+        z-index: 98;
+    }
+    .absolute3{
+        position: absolute;
+        left:30%;
+        top: 60%;
+        height: 100px;
+        margin-top: 2rem;
+    }
+    .opacity{
+        font-size: 1.5rem;
+    }
+    .texth1{
+        font-size: 3rem;
+        text-align: center;    
+    }
+    .paddingImg{
+        margin-top: 6rem;
+        padding: 20px;
+        height: 90px;
+        width: 90px;
+    }
+    .section2{
+        position: relative;
+        top: 15rem;
+    }
+    
+    .textTitles{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-bottom: 10px;
+    }
+    
+    .textParagraph{
+        opacity: 70%;
+        font-size: 0.75rem;
+        text-align: center;
+        margin: 2rem;
+    }
+    .circle1{
+        top: 12rem;
+    }
+    .crop{
+        width: 150px; 
+        height: 200px; 
+        object-fit:cover;
+        object-position: 0 100%;
+    }
+    .habilidades{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        position: relative;
+        width: 20rem;
+        top: 25rem;
+    }
+    .experiencia{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+        position: relative;
+        top: 45rem;
+    }
+    .container-box{
+        position: relative;
+        top: 30rem;
+        left: 15rem;
+        display: flex;
+        justify-content: space-around;
+        width: 350px;
+        height: 200px; 
+        margin-left: 2rem;
+        margin-right: 2rem;
+}
+.container-box2{
+        position: relative;
+        top: 35rem;
+        left: 15rem;
+        display: flex;
+        justify-content: space-around;
+        width: 350px;
+        height: 200px;
+        margin-left: 2rem;
+        margin-right: 2rem;
 }
 
+.col-6{
+    width:calc(100% /12 * 6);
+    padding: 4rem;  
+}
+.icon-position{
+    position: relative;
+    left: -20%;
+}
+.icon-position2{
+    position: relative;
+    left: 10%;
+}
+.icon-position3{
+    position: relative;
+    left: 7%;
+}
+.icon-position4{
+    position: relative;
+    top: -1.7rem;
+}
+.textIcon{
+    font-size: 1rem;
+    position: relative;
+    left: 1rem;
+    text-align: center;
+}
+.textExper{
+    font-size: 1rem;
+    text-align: center;
+}
+.row{
+    display: flex;
+    height: 13rem;
+    justify-content: right;
+}
+.opc-bdr{
+    border-bottom: 1px solid rgb(123, 111, 111,);
+    margin-left: 0;
+    margin-right: 3rem;
+}
+.circle2{
+    position: absolute;
+    bottom: -40%;
+    left: -5%;
+}
+.containerPorta{
+    font-size: 1.25rem;
+    position: relative;
+    top: 1rem;
+    left: -6rem;
+}
+.boxporta{
+    position: relative;
+    margin-left: 10rem;
+    top: 50rem;
+}
+.boxportaContact{
+    position: relative;
+    margin-left: 0rem;
+    top: 50rem;
+}
+.portaboxes{
+    display: flex;
+    justify-content:space-around;
+    margin-left: -8rem;
+}
+.box-sizes{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 2rem;
+}
+.boxContactContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    top: 70rem;
+    margin-bottom: 10rem;
+}
 
-/* // X-Large devices (large desktops, less than 1400px) */
- @media (min-width: 1400px) {
+  
+
+}
+/* // Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 768px){
+    
     .imgVtor{
-        width: 91rem;
+        width: 47rem;
     }
     .imgVtor2{
-        width: 92rem;
+        position: absolute;
+        top: 80%;
+        width: 47rem;
+        left: 0%;
+    
     }
+    .profilePic{
+        width: 230px; 
+        height: 270px;
+        right: -10%;
+        top: 0%;
+        z-index: 98;
     }
+    .absolute3{
+        position: absolute;
+        left:25%;
+        top: 60%;
+        height: 100px;
+        margin-top: 2rem;
+    }
+    .opacity{
+        font-size: 1.5rem;
+    }
+    .texth1{
+        font-size: 3rem;
+        text-align: center;    
+    }
+    .paddingImg{
+        margin-top: 6rem;
+        padding: 20px;
+        height: 90px;
+        width: 90px;
+    }
+    .section2{
+        position: relative;
+        top: 10rem;
+    }
+    
+    .textTitles{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-bottom: 10px;
+    }
+    
+    .textParagraph{
+        opacity: 70%;
+        font-size: 0.75rem;
+        text-align: center;
+        margin: 2rem;
+    }
+    .circle1{
+        top: 6rem;
+    }
+    .crop{
+        width: 150px; 
+        height: 200px; 
+        object-fit:cover;
+        object-position: 0 100%;
+    }
+    .habilidades{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        position: relative;
+        width: 20rem;
+        top: 16rem;
+    }
+    .experiencia{
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+        position: relative;
+        top: 30rem;
+    }
+    .container-box{
+        position: relative;
+        top: 20rem;
+        left: 5rem;
+        display: flex;
+        align-items: center;
+        width: 350px;
+        height: 200px; 
+      
+}
+.container-box2{
+        position: relative;
+        top: 25rem;
+        left: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 350px;
+        height: 200px;
+}
+
+.col-6{
+    width:calc(100% /12 * 6);
+    padding: 4rem;  
+}
+.icon-position{
+    position: relative;
+    left: -20%;
+}
+.icon-position2{
+    position: relative;
+    left: 10%;
+}
+.icon-position3{
+    position: relative;
+    left: 7%;
+}
+.icon-position4{
+    position: relative;
+    top: -1.7rem;
+}
+.textIcon{
+    font-size: 1rem;
+    position: relative;
+    left: 1rem;
+    text-align: center;
+}
+.textExper{
+    font-size: 1rem;
+    text-align: center;
+}
+.row{
+    display: flex;
+    height: 13rem;
+    justify-content: right;
+}
+.opc-bdr{
+    border-bottom: 1px solid rgb(123, 111, 111,);
+    margin-left: 0;
+    margin-right: 3rem;
+}
+.circle2{
+    position: absolute;
+    bottom: -40%;
+    left: -5%;
+}
+.containerPorta{
+    font-size: 1.25rem;
+    position: relative;
+    top: 5rem;
+    left: -4rem;
+}
+.boxporta{
+    position: relative;
+    margin-left: 10rem;
+    top: 30rem;
+}
+.boxportaContact{
+    position: relative;
+    margin-left: 3rem;
+    top: 30rem;
+}
+.portaboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-left: -1rem;
+}
+.box-sizes{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 2rem;
+}
+.boxContactContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    top: 50rem;
+    padding: 0;
+}
+
+} 
+
+@media (max-width: 575.98px) {
+    .imgVtor{
+        width: 34rem;
+    }
+    .imgVtor2{
+        position: absolute;
+        top: 80%;
+        width: 34rem;
+        left:-3%
+    }
+    .profilePic{
+        width: 230px; 
+        height: 250px;
+        right: -20%;
+        z-index: 98;
+    }
+    .absolute3{
+        position: absolute;
+        right: 18%;
+        top: 60%;
+        height: 100px;
+        margin-top: 2rem;
+    }
+    .opacity{
+        font-size: 1.5rem;
+    }
+    .texth1{
+        font-size: 3rem;
+        text-align: center;    
+    }
+    .paddingImg{
+        margin-top: 6rem;
+        padding: 20px;
+        height: 90px;
+        width: 90px;
+    }
+    .section2{
+        position: relative;
+        top: 6rem;
+       
+    }
+    
+    .textTitles{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        padding-bottom: 10px;
+    }
+    
+    .textParagraph{
+        opacity: 70%;
+        font-size: 0.75rem;
+        text-align: center;
+        margin: 2rem;
+    }
+    .circle1{
+        top: 1rem;
+    }
+    .crop{
+        width: 75px; 
+        height: 100px; 
+        object-fit:cover;
+        object-position: 0 100%;
+    }
+    .habilidades{
+        font-size: 2rem;
+        text-align: left;
+        left: 5%;
+        position: relative;
+        width: 20rem;
+        top: 6rem;
+    }
+    .habilidades2{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        position: relative;
+        top: 15rem;
+    }
+    .experiencia{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        position: relative;
+        top: 15rem;
+    }
+    .container-box{
+        position: relative;
+        top: 10rem;
+        left: 1.5rem;
+        display: flex;
+        align-items: center;
+        width: 350px;
+        height: 200px; 
+      
+}
+.container-box2{
+        position: relative;
+        top: 10rem;
+        left: 1.5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 350px;
+        height: 200px;
+}
+
+.col-6{
+    width:calc(100% /12 * 6);
+    padding: 4rem;  
+}
+.icon-position{
+    position: relative;
+    left: -20%;
+}
+.icon-position2{
+    position: relative;
+    left: 10%;
+}
+.icon-position3{
+    position: relative;
+    left: 7%;
+}
+.icon-position4{
+    position: relative;
+    top: -1.7rem;
+}
+.textIcon{
+    font-size: 1rem;
+    position: relative;
+    left: 1rem;
+    text-align: center;
+}
+.textExper{
+    font-size: 1rem;
+    text-align: justify;
+}
+.row{
+    display: flex;
+    height: 13rem;
+    justify-content: right;
+}
+.opc-bdr{
+    border-bottom: 1px solid rgb(123, 111, 111,);
+    margin-left: 0;
+    margin-right: 3rem;
+}
+.circle2{
+    position: absolute;
+    bottom: -40%;
+    left: -15%;
+}
+.containerPorta{
+    font-size: 1.25rem;
+    position: relative;
+    top: 6rem;
+    left: -9rem
+}
+.boxporta{
+    position: relative;
+    margin-left: 2rem;
+    top: 15rem;
+    
+}
+.portaboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-left: 1rem;
+}
+.box-sizes{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 2rem;
+}
+.boxContactContainer{
+    display: flex;
+    justify-content:space-between;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30rem;
+    padding: 0;
+}
+}
+@media (max-width: 399.98px) { 
+    
+    
+    .imgVtor{
+        height: 20rem;
+        width: 24rem;
+    }
+    .imgVtor2{
+        position: absolute;
+        top: 95%;
+        width: 24rem;
+    }
+    .profilePic{
+        width: 230px; 
+        height: 250px;
+        right: -35%;
+        z-index: 98;
+    }
+    .absolute3{
+        position: absolute;
+        left:10%;
+        top: 60%;
+        height: 100px;
+        margin-top: 2rem;
+    }
+    .opacity{
+        font-size: 1.5rem;
+    }
+    .texth1{
+        font-size: 3rem;
+        text-align: center;    
+    }
+    .paddingImg{
+        margin-top: 6rem;
+        padding: 20px;
+        height: 90px;
+        width: 90px;
+    }
+    .section2{
+        position: relative;
+        top: 6rem;
+    }
+    
+    .textTitles{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        padding-bottom: 10px;
+    }
+    
+    .textParagraph{
+        opacity: 70%;
+        font-size: 0.75rem;
+        text-align: center;
+        margin: 2rem;
+    }
+    .circle1{
+        top: 1rem;
+    }
+    .crop{
+        width: 75px; 
+        height: 100px; 
+        object-fit:cover;
+        object-position: 0 100%;
+    }
+    .habilidades{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        position: relative;
+        width: 20rem;
+        top: 6rem;
+    }
+    .experiencia{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1rem;
+        position: relative;
+        top: 10rem;
+    }
+    .container-box{
+        position: relative;
+        top: 2rem;
+        left: -1.5rem;
+        display: flex;
+        align-items: center;
+        width: 350px;
+        height: 200px; 
+      
+}
+.container-box2{
+        position: relative;
+        top: 5rem;
+        left: -1.5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 350px;
+        height: 200px;
+}
+
+.col-6{
+    width:calc(100% /12 * 6);
+    padding: 4rem;  
+}
+.icon-position{
+    position: relative;
+    left: -20%;
+}
+.icon-position2{
+    position: relative;
+    left: 10%;
+}
+.icon-position3{
+    position: relative;
+    left: 7%;
+}
+.icon-position4{
+    position: relative;
+    top: -1.7rem;
+}
+.textIcon{
+    font-size: 1rem;
+    position: relative;
+    left: 1rem;
+    text-align: center;
+}
+.textExper{
+    font-size: 0.85rem;
+    text-align: justify;
+}
+.row{
+    display: flex;
+    height: 13rem;
+    justify-content: right;
+}
+.opc-bdr{
+    border-bottom: 1px solid rgb(123, 111, 111,);
+    margin-left: 0;
+    margin-right: 3rem;
+}
+.circle2{
+    position: absolute;
+    bottom: -40%;
+    left: -15%;
+}
+.containerPorta{
+    font-size: 1.25rem;
+    position: relative;
+    top: 7rem;
+    left: -4rem
+}
+.boxporta{
+    position: relative;
+    margin-left: 2rem;
+    top: 7rem;
+    
+}
+.portaboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-left: 0;
+}
+.box-sizes{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 1rem;
+}
+.boxContactContainer{
+    display: flex;
+    justify-content:space-between;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    top: 20rem;
+    padding: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
