@@ -243,6 +243,22 @@ li a:hover{
     padding: 1.25rem;
 }
 
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 75vw;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+tr{
+    
+    border-bottom: 1px solid rgb(90, 82, 82);
+}
+td{
+    padding: 1rem;
+    text-align: justify;
+}
+
 .opc-bdr{
     border-bottom: 1px solid rgb(123, 111, 111);
     margin-left: 10rem;

@@ -1,5 +1,5 @@
 /* // X-Large devices (large desktops, less than 1400px) */
-@media (min-width: 1400px) {
+@media (min-width: 1399.98px) {
     .imgVtor{
         width: 92rem;
     }
@@ -8,7 +8,7 @@
     }
     }
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1200px ) { 
+@media (max-width: 1199.98px ) { 
 
     .imgVtor{
         width: 74rem;
@@ -202,11 +202,14 @@
   
 }
 /* // Medium devices (tablets, less than 992px) */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991.98px) {
     
     .checkbtn{
         display: block;
          
+    }
+    .imgMar{
+        margin-right: 1rem
     }
     ul{
         background: black;
@@ -218,7 +221,8 @@
         text-align: center;
         transition: all .5s;
         z-index: 99;
-        
+        margin: 0;
+        padding: 0;
     }
     
     nav ul li{
@@ -241,12 +245,12 @@
     } 
      
     .imgVtor{
-        width: 61rem;
+        width: 97vw;
     }
     .imgVtor2{
         position: absolute;
         top: 70%;
-        width: 63rem;
+        width: 98vw;
         left: -4%;
     
     }
@@ -317,6 +321,10 @@
         padding-left: 1rem;
         position: relative;
         top: 45rem;
+    }
+    .newContainer{
+        display: flex;
+        justify-content: center;
     }
     .container-box{
         position: relative;
@@ -429,15 +437,15 @@
 
 }
 /* // Small devices (landscape phones, less than 768px) */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767.98px){
     
     .imgVtor{
-        width: 36rem;
+        width: 96vw;
     }
     .imgVtor2{
         position: absolute;
-        top: 80%;
-        width: 37rem;
+        top: 70%;
+        width: 96vw;
         left: -5%;
     
     }
@@ -584,7 +592,7 @@
 }
 .boxporta{
     position: relative;
-    margin-left: 10rem;
+    margin-left: 12rem;
     top: 30rem;
 }
 .boxportaContact{
@@ -620,12 +628,12 @@
 
 @media (max-width: 575.98px) {
     .imgVtor{
-        width: 27rem;
+        width: 95vw;
     }
     .imgVtor2{
         position: absolute;
         top: 80%;
-        width: 26rem;
+        width: 98vw;
         left:-3%
     }
     .profilePic{
@@ -636,8 +644,8 @@
     }
     .absolute3{
         position: absolute;
-        right: 18%;
-        top: 60%;
+        left: 2%;
+        top: 45%;
         height: 100px;
         margin-top: 2rem;
     }
@@ -649,14 +657,15 @@
         text-align: center;    
     }
     .paddingImg{
-        margin-top: 6rem;
+        margin-top: 1rem;
         padding: 20px;
         height: 90px;
         width: 90px;
     }
     .section2{
         position: relative;
-        top: 6rem;
+        top: 10rem;
+        margin-bottom: 10rem;
        
     }
     
@@ -707,17 +716,17 @@
     .container-box{
         position: relative;
         top: 10rem;
-        left: 1.5rem;
+        left: -1.5rem;
         display: flex;
         align-items: center;
         width: 350px;
         height: 200px; 
-      
+        margin-bottom: 2rem;
 }
 .container-box2{
         position: relative;
         top: 10rem;
-        left: 1.5rem;
+        left: -2rem;
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
@@ -759,6 +768,20 @@
     display: flex;
     height: 13rem;
     justify-content: right;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+    margin-left: 2rem;
+    margin-right: 0;
+    font-size: 1rem;
+}
+
+td{
+    padding: 1rem;
+    text-align: center;
 }
 .opc-bdr{
     border-bottom: 1px solid rgb(123, 111, 111,);
@@ -804,8 +827,9 @@
     position: relative;
     top: 30rem;
     padding: 0;
+} 
 }
-}
+
 @media (max-width: 399.98px) { 
     
     
