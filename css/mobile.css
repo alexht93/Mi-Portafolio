@@ -432,13 +432,13 @@
 @media only screen and (max-width: 768px){
     
     .imgVtor{
-        width: 47rem;
+        width: 36rem;
     }
     .imgVtor2{
         position: absolute;
         top: 80%;
-        width: 47rem;
-        left: 0%;
+        width: 37rem;
+        left: -5%;
     
     }
     .profilePic{
@@ -596,11 +596,11 @@
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    margin-left: -1rem;
+    margin-left: -4rem;
 }
 .box-sizes{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin-bottom: 2rem;
 }
 .boxContactContainer{
@@ -620,12 +620,12 @@
 
 @media (max-width: 575.98px) {
     .imgVtor{
-        width: 34rem;
+        width: 27rem;
     }
     .imgVtor2{
         position: absolute;
         top: 80%;
-        width: 34rem;
+        width: 26rem;
         left:-3%
     }
     .profilePic{
@@ -789,8 +789,8 @@
     margin-left: 1rem;
 }
 .box-sizes{
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     margin-bottom: 2rem;
 }
 .boxContactContainer{
