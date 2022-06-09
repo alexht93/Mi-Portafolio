@@ -80,18 +80,20 @@ li a:hover{
     position: relative;
     top: 0.1rem;
     z-index: 1;
+    width: 95vw;
 }
 
 .imgvector2{
     position: relative;
     bottom: 32rem;
     left: -4%;
+    width: 98vw;
  }
  .imgVtor{
-     width: 86rem;
+     width: 90rem;
  }
  .imgVtor2{
-     width: 86rem;
+     width: 88rem;
     
  }
  
@@ -251,7 +253,6 @@ table{
     margin-right: 10rem;
 }
 tr{
-    
     border-bottom: 1px solid rgb(90, 82, 82);
 }
 td{
