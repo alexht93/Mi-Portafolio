@@ -1,0 +1,40 @@
+/* CONTACT */
+.contact-header {
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icon {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 0 7%;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

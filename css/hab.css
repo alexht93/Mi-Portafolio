@@ -1,0 +1,50 @@
+.hab-content-left {
+    display: flex;
+    justify-content: center;
+}
+
+.hab-content-right {
+    display: flex;
+    justify-content: center;
+}
+
+.hab-card {
+    
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    margin: 0 -0.5rem;
+}
+
+.hab-img {
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backg-Img{
+    background-color: rgb(44, 42, 42);
+    border-radius: 50%;
+}
+
+
+@media (min-width: 576px) {
+    .hab-card {
+        width: 13rem;
+        min-height: 14rem;
+    }
+
+    .hab-content-left {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .hab-content-right {
+        display: flex;
+        justify-content: flex-start;
+    }
+ }

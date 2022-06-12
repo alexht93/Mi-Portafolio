@@ -4,158 +4,232 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/layout.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/nav.css"/>
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
-    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="./css/images.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/hab.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/porta.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/contact.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
 
     <title>Mi portafolio</title>
 </head>
 <body>
-    <nav class="align">
+    <nav>
+        <button onclick="toggleMenu()">
+            <img src="./assets/menu 1.svg">
+        </button>
+        <ul class="hidden" id="ul-nav">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Acerca de mí</a>
+            </li>
+            <li>
+                <a href="#">Mis habilidades</a>
+            </li>
+            <li>
+                <a href="#">Experiencia</a>
+            </li>
+            <li>
+                <a href="#">Mi portafolio</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
 
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <img class="imgMar" src="./assets/menu 1.svg">
-        </label>
-                <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#Acerca">Acerca de mí</a></li>
-                        <li><a href="#Mis">Mis habilidades</a></li>
-                        <li><a href="#experiencia">Experiencia</a></li>
-                        <li><a href="#porta">Portafolio</a></li>
-                        <li><a href="#contact">Contacto</a></li>
-                </ul>
-        </nav>
-                   
-     <div>
-            <div id="home" class="container">
-                <div class="absolute1">
-                    <img class="profilePic" src="./assets/Rectangle 45.png">
-                </div>
-                <div >
-                    <img class="vector1 imgVtor" src="./assets/Group 99.svg" >
+<!-- First Section -->
+
+    <div class="row">
+        <div class="col-12 ">
+            <div class="profilePic">
+                <img class="profilePicsize" src="./assets/pic profile.jpeg">
+            </div>
+            <div class="">
+                <div class="profilePic">
+                    <img class="vectorSize" src="./assets/Group 99.svg">
                 </div>
             </div>
-
-            <div class="absolute3">
-                <div>
-                <h2 class="opacity">Hola, soy Alex</h2>
-                  <h1 class="texth1">Diseñador y <br>desarrollador web</h1>
-                </div>
-        </div>
-                <div class="absolute4">
-                    <img class="paddingImg" src="./assets/cib_linkedin-in.svg">
-                    <img class="paddingImg"  src="./assets/ant-design_instagram-filled.svg">
-                    <img class="paddingImg"  src="./assets/ant-design_twitter-outlined.svg">
-                </div>    
-        <div>
-                    <div>
-                        <img class="imgvector2 imgVtor2" src="./assets/Group 98.svg">
-                    </div>
-         </div>
-     </div> 
-
-    <div id="Acerca" class="section2">
-            <h1 class="textTitles">Acerca de mí</h1>
-            <p class="textParagraph">Soy un desarrollador web nuevo, dispuesto a aprender y crecer tanto personal como laboralmente.  Mi experiencia en el mundo del desarrollo web es por el momento no tan basta como me gustaría, pero lo compenso con mis deseos de aprender y ser mejor cada dia. 
-                Cuento con experiencia en servicio al cliente en el idioma inglés de aproximadamente 10 años, por lo tanto puedo confirmar y asegurar que soy una persona responsable, puntual y sobre todo consistente.
-                </p>
-    </div>
-
-    <h1 id="Mis" class="habilidades title-Hab">Mis habilidades</h1>
-        
-    <div >
-        <img class="crop circle1" src="./assets/Group 97.svg">
-    </div>
- 
-    <div>
-        <div class="container-box">
             
-            <div class="col-6"> 
-                    <img class="icon-position backg-icon"  src="./assets/ant-design_mobile-filled.svg" > 
-                    <p class="textIcon" >Mobile app design</p>
-            </div>
-                <div class="col-6">
-                    <img class="icon-position2 backg-icon" src="./assets/mdi_motion.svg" >                 
-                    <p class="textIcon">Motion design</p>
-                </div>
-        </div>
-        <div>
-            <div class="container-box2">
-                <div class="col-6">
-                    <img class="icon-position3 backg-icon" src="./assets/mdi_material-design.svg" >  
-                    <p class="textIcon">Creacion de sistemas de diseño</p>
-                </div>
-                 <div class="col-6">
-                    <img class="icon-position4 backg-icon" src="./assets/ic_outline-web-asset.svg" >
-                    <p class="textIcon">Desarrollo web</p>
-                </div> 
-            </div>
         </div>
     </div>
 
-    
 
 
+<div class="row">
+    <div class="col-12">
+        <h2 class="text-center textPM textOpa">Hola, soy Alex</h2>
+        <h1 class="text-center textPM textSize">Diseñador y <br> Desarrolador <br> Web.</h1>
+    </div>
+</div>
+   
 
-    
-<div id="experiencia" class="experiencia">
-        
-        <h1 class="textTitles">Expericencia</h1>
-
-        <table>
-
-            <tr>
-                <td class="opaci-text">2014-2017 </td>
-              <td> Customer Service Representative.  <p class="opaci-text">Telus International.</p> </td> 
-             </tr>
-
-             <tr>
-                 <td class="opaci-text">2017-2022</td>
-                 <td>Customer Service Representative. <p class="opaci-text">The Office Gurus.</p></td>
-             </tr>
-        </table>
-
-    <div class="circle2"><img src="./assets/Group 97.svg"></div>
-
+<div class="row">
+        <div class="col-12 iconSM">
+            <img src="./assets/cib_linkedin-in.svg" >
+            <img class="iconPad" src="./assets/ant-design_instagram-filled.svg">
+            <img src="./assets/ant-design_twitter-outlined.svg">
+        </div>
 </div>
 
-<div class="boxporta" id="porta">
-        
-    <div class="containerPorta"><h1>Portafolio</h1></div>
-
-<div class="portaboxes">
-                <div ><img class="box-sizes" src="./assets/image 10.jpg"></div>
-                <div ><img class="box-sizes" src="./assets/image 11.jpg"></div>
-                <div ><img class="box-sizes" src="./assets/Rectangle 65.jpg"></div>
-            </div>
-    </div>  
+<div class="vector2Pos">
+    <img class="vector2Size" src="./assets/Group 98.svg">
+</div>
 
 
-<div class="boxporta boxportaContact" id="contact">
-        <div class="container-contact"> 
-                 <h1>Contacto</h1>
+<!-- First Section -->
+
+<!-- Second Section -->
+
+<div class="textWPadding">
+
+    <p class="textSize text-center-m">Acerca de mí</p>
+    <p class="textOpa text-center">Soy un desarrollador web nuevo, dispuesto a aprender y crecer tanto personal como laboralmente.  Mi experiencia en el mundo del desarrollo web es por el momento no tan basta como me gustaría, pero lo compenso con mis deseos de aprender y ser mejor cada dia. 
+        Cuento con experiencia en servicio al cliente en el idioma inglés de aproximadamente 10 años, por lo tanto puedo confirmar y asegurar que soy una persona responsable, puntual y sobre todo consistente.
+        </p>
+</div>
+
+
+<!-- Second Section End-->
+
+<!-- Third Section -->
+
+    <div class="circleRight">
+        <p class="textHab text-center-m habPadd">Mis Habilidades </p>
+        <img class="circleSize" src="./assets/Group 97.svg">
     </div>
-    <div class="boxContactContainer">
-        <div>
-            <div><img class="backgndContact contactItemalign2" src="./assets/phone 3.svg"></div>
-                <h3 class="textContact">Numero de celular</h3>
-                <p class="textContact">+503 7942-0790</p>
+
+
+<div class="row">
+        <div class="col-6">
+            <div class="hab-content-left">
+                <div class="hab-card ">
+                    <div class="hab-img backg-Img">
+                        <img src="./assets/ant-design_mobile-filled.svg">
+                    </div>
+                    <p>CSS</p>
+                </div>
             </div>
-    
-        <div>
-            <div>  <img class="backgndContact contactItemalign" src="./assets/mail 3.svg"></div>
-                 <h3 class="textContact">Email</h3>
-                <p class="textContact">alex.h.torres@outlook.com</p>
         </div>
+        <div class="col-6">
+            <div class="hab-content-right">
+                <div class="hab-card ">
+                    <div class="hab-img backg-Img">
+                        <img src="./assets/mdi_motion.svg">
+                    </div>
+                    <p>HTML</p>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <div class="hab-content-left">
+            <div class="hab-card ">
+                <div class="hab-img backg-Img">
+                    <img src="./assets/mdi_material-design.svg">
+                </div>
+                <p>INGLES</p>
+            </div>
         </div>
     </div>
+    <div class="col-6">
+        <div class="hab-content-right">
+            <div class="hab-card ">
+                <div class="hab-img backg-Img">
+                    <img src="./assets/ic_outline-web-asset.svg">
+                </div>
+                <p>JAVA</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Third Section End-->
+
+<!-- Fourth Section -->
+
+     
+    <h1 class="textSize textWPadding text-center-m">Expericencia</h1>
+
+    <table>
+
+        <tr>
+            <td class="textOpa">2014-2017 </td>
+          <td> Customer Service Representative.  <p class="textOpa">Telus International.</p> </td> 
+         </tr>
+
+         <tr>
+             <td class="textOpa">2017-2022</td>
+             <td>Customer Service Representative. <p class="textOpa">The Office Gurus.</p></td>
+         </tr>
+    </table>
 
     <div>
-        <div class="footer">
-            <h4>Hecho con &#10084 en Academlo </h4>
+        <img class="circleSizeLeft" src="./assets/Group 97.svg">
+    </div>
+
+
+<!-- Fith Section -->
+
+    <div class="portfolio-container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="textSize">Portafolio</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4 portfolio-img-container">
+                <img class="portfolio-img" src="./assets/image 10.jpg">
+            </div>
+            <div class="col-12 col-lg-4 portfolio-img-container">
+                <img class="portfolio-img" src="./assets/image 11.jpg">
+            </div>
+            <div class="col-12 col-lg-4 portfolio-img-container">
+                <img class="portfolio-img" src="./assets/Rectangle 65.jpg">
+            </div>
         </div>
     </div>
+
+<!-- Sixth Section -->
     
+    <div class="row contact-container">
+        <div class="col-12 text-center">
+            <p class="textSize ">Contacto</p>
+        </div>
+        <div class="col-12 contact-content">
+            <div class="contact-info">
+                <div class="contact-icon">
+                    <img src="./assets/phone 3.svg">
+                </div>
+                <h3>Teléfono</h3>
+                <p>+50379420790</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-icon">
+                    <img src="./assets/mail 3.svg">
+                </div>
+                <h3>Email</h3>
+                <p>alex.h.torres@outlook.com</p>
+            </div>
+        </div>
+    </div>
+   
+<!-- Seventh Section -->
+
+<div class="row footer-container">
+    <div class="col-12 text-center">
+        <p>Hecho con &#10084; en Academlo</p>
+    </div>
+</div>
+
+
+<script src="./js/script.js"></script>
+
 </body>
 </html>

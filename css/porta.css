@@ -1,0 +1,12 @@
+.portfolio-container {
+    padding: 0 10%;
+}
+
+.portfolio-img {
+    max-width: 100%;
+}
+
+.portfolio-img-container {
+    display: flex;
+    justify-content: center;
+}
